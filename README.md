@@ -281,15 +281,13 @@ python dfc_security_reporter.py --mode html-only --report-csv Reports/existing_r
   ```ini
  [processing]
  time_format = %m/%d/%Y %H:%M:%S
-  encoding = utf-8  # or latin1
-  ```
+  encoding = utf-8  # or latin1```
 
 ### Time format errors
 - Update `time_format` in the `[processing]` section to match your CSV:
   ```ini
 [processing]
-  time_format = %m.%d.%Y %H:%M:%S
-  ```
+  time_format = %m.%d.%Y %H:%M:%S ```
 
 ## Notes
 
